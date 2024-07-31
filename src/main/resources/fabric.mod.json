@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "the-old-gods",
+	"version": "${version}",
+	"name": "The Old Gods",
+	"description": "",
+	"authors": [
+		"Maxson1029",
+		"crzymnky321"
+	],
+	"contact": {
+		"homepage": "https://github.com/v-maxson/The-Old-Gods",
+		"sources": "https://github.com/v-maxson/The-Old-Gods"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/the-old-gods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mod.maxson.TheOldGods"
+		],
+		"client": [
+			"mod.maxson.TheOldGodsClient"
+		],
+		"fabric-datagen": [
+			"mod.maxson.TheOldGodsDataGenerator"
+		]
+	},
+	"mixins": [
+		"the-old-gods.mixins.json",
+		{
+			"config": "the-old-gods.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

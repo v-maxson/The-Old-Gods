@@ -23,7 +23,7 @@
 			"mod.maxson.TheOldGodsClient"
 		],
 		"fabric-datagen": [
-			"mod.maxson.TheOldGodsDataGenerator"
+			"mod.maxson.datagen.TheOldGodsDataGenerator"
 		]
 	},
 	"mixins": [

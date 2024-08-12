@@ -1,7 +1,7 @@
-// 1.20.4	2024-08-11T18:56:35.318126	The Old Gods/Model Definitions
+// 1.20.4	2024-08-11T19:31:08.7344853	The Old Gods/Model Definitions
 c086971e0de1f51cd28e57a5673c2132d89859a5 assets\the-old-gods\models\item\sphedge_sign.json
-812be38c21ca7978f12fc4234c20a29cca7913a2 assets\the-old-gods\models\block\sphedge_wood.json
 573aae8ab4c903ff2cb7a9e6657de19176b4f983 assets\the-old-gods\models\item\sphedge_sword.json
+812be38c21ca7978f12fc4234c20a29cca7913a2 assets\the-old-gods\models\block\sphedge_wood.json
 32275bd799859ab8971d5eb36b7205063aee7c87 assets\the-old-gods\blockstates\sphedge_planks.json
 602d1b82a8c8cd62c92037cc027e965953cb8588 assets\the-old-gods\blockstates\sphedge_wood.json
 a59d6259a20936014d183bf83eea7fc61fcf3f94 assets\the-old-gods\models\item\sphedge_shovel.json
@@ -9,8 +9,8 @@ a59d6259a20936014d183bf83eea7fc61fcf3f94 assets\the-old-gods\models\item\sphedge
 62b352e25d526d1f737f44374467ba9235e5ed96 assets\the-old-gods\blockstates\sphedge_log.json
 70a098ab6c04ce55a607625def72c33d699c1547 assets\the-old-gods\models\item\sphedge_boat.json
 3e05e660a343e5e5cdc41e0c6fca67979c31ba74 assets\the-old-gods\models\block\sphedge_ore.json
-b1db5685c88d56b4e4e4ecad217559abd723e0a7 assets\the-old-gods\blockstates\sphedge_leaves.json
 5fed129838697a577b701239e779c3ea7567da36 assets\the-old-gods\blockstates\deepslate_sphedge_ore.json
+b1db5685c88d56b4e4e4ecad217559abd723e0a7 assets\the-old-gods\blockstates\sphedge_leaves.json
 3b149c9cd86a9acc5c58ccddde579c5189236571 assets\the-old-gods\models\block\sphedge_planks.json
 f9663cb3067bf4e473b09f021a4cabe5c9963ac4 assets\the-old-gods\blockstates\stripped_sphedge_wood.json
 ef5e4f647fb06cc311ecaf78ed2d003c15af15ef assets\the-old-gods\models\item\sphedge_axe.json
@@ -21,8 +21,8 @@ c2e04d562d1c03d2901f895c8ab1d6d7f4f58788 assets\the-old-gods\models\item\sphedge
 6d71d86fb3a409063e31c4634792cb386fba00cf assets\the-old-gods\models\item\sphedge_block.json
 0706825044f93f30606e890ccff3a179476a02bc assets\the-old-gods\models\item\sphedge_chest_boat.json
 bd295eb4adf3ffc3eb0659ef48b5a18040558825 assets\the-old-gods\blockstates\sphedge_sapling.json
-9217b2f07591f2fc548bd3ed0de30e6d45638ef0 assets\the-old-gods\models\block\sphedge_sapling.json
 1ed43beda1d518fb482cbcf6c371353e3313261c assets\the-old-gods\models\item\raw_sphedge.json
+9217b2f07591f2fc548bd3ed0de30e6d45638ef0 assets\the-old-gods\models\block\sphedge_sapling.json
 a68020ea7ab655cb357df9ff26a38bb209d25660 assets\the-old-gods\blockstates\sphedge_standing_sign.json
 e77898f6eef091d4a77f8a4f94557dce4f9e316b assets\the-old-gods\models\block\stripped_sphedge_wood.json
 a68020ea7ab655cb357df9ff26a38bb209d25660 assets\the-old-gods\blockstates\sphedge_wall_sign.json
@@ -38,8 +38,8 @@ aeb48864e05c26d9e7b43a285c5d823439106b09 assets\the-old-gods\models\item\sphedge
 99ee93b43f4844ad6392b077b83e3c4781154787 assets\the-old-gods\blockstates\sphedge_block.json
 c84feb3b356adec3dc4e5beeec05a4c41474e738 assets\the-old-gods\models\block\sphedge_leaves.json
 f033b607aae830d6a974e7a9fcd374696ad97fab assets\the-old-gods\models\item\sphedge_sapling.json
-3d4cb8efb5fec8029e1690447bfb03b207ff6a3d assets\the-old-gods\models\item\sphedge_leaves.json
 dc905cab87a17a291019dbbdcb1fcf7982d0d6aa assets\the-old-gods\models\item\deepslate_sphedge_ore.json
+3d4cb8efb5fec8029e1690447bfb03b207ff6a3d assets\the-old-gods\models\item\sphedge_leaves.json
 5ec200b74fc9eed2eccc04440ab09958d9c6fab3 assets\the-old-gods\models\item\sphedge_stick.json
 5ad52571ba2e3cd06493504d2c8be476e74c5f8f assets\the-old-gods\models\item\stripped_sphedge_log.json
 fa594a45bb1a2bf1c828997dbae4cabb9af2e313 assets\the-old-gods\models\item\stripped_sphedge_wood.json

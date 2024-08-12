@@ -1,5 +1,6 @@
 package mod.maxson.world;
 
+import mod.maxson.block.ModBlocks;
 import mod.maxson.util.ModIdentifier;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -8,19 +9,30 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.PlacedFeature;
+import net.minecraft.world.gen.feature.PlacedFeatures;
+import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SPHEDGE_ORE_PLACED_KEY = registerKey("sphedge_ore_placed");
+    public static final RegistryKey<PlacedFeature> SPHEDGE_TREE_PLACED_KEY = registerKey("sphedge_tree_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
+        // Ores
         register(context, SPHEDGE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SPHEDGE_ORE_KEY),
                 modifiersWithCount(12, // Veins per Chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+
+        // Trees
+        register(context, SPHEDGE_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SPHEDGE_TREE_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(2, 0.25f, 4),
+                        ModBlocks.SPHEDGE_SAPLING
+                ));
     }
 
     private static void register(

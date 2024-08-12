@@ -19,6 +19,8 @@ public class ModItemGroups {
         entries.add(ModBlocks.SPHEDGE_ORE);
         entries.add(ModBlocks.SPHEDGE_BLOCK);
         entries.add(ModBlocks.SPHEDGE_LEGS);
+        entries.add(ModBlocks.SPHEDGE_GRASS_BLOCK);
+        entries.add(ModBlocks.SPHEDGE_DIRT);
 
         entries.add(ModBlocks.SPHEDGE_LOG);
         entries.add(ModBlocks.SPHEDGE_WOOD);

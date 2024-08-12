@@ -29,6 +29,8 @@ public class ModBlocks {
             new SphedgeLegsBlock(FabricBlockSettings.copy(SPHEDGE_BLOCK).nonOpaque()));
     public static final Block SPHEDGE_ORE = register("sphedge_ore",
             new Block(FabricBlockSettings.copy(Blocks.IRON_ORE)));
+    public static final Block SPHEDGE_GRASS_BLOCK = register("sphedge_grass_block", new GrassBlock(FabricBlockSettings.copy(Blocks.GRASS_BLOCK)));
+    public static final Block SPHEDGE_DIRT = register("sphedge_dirt", new Block(FabricBlockSettings.copy(Blocks.DIRT)));
 
     public static final Block SPHEDGE_LOG = register("sphedge_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)));

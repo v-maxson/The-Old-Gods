@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "the-old-gods:block/sphedge_dirt",
+    "east": "the-old-gods:block/sphedge_grass_block_side",
+    "north": "the-old-gods:block/sphedge_grass_block_side",
+    "particle": "the-old-gods:block/sphedge_dirt",
+    "south": "the-old-gods:block/sphedge_grass_block_side",
+    "up": "the-old-gods:block/sphedge_grass_block_top",
+    "west": "the-old-gods:block/sphedge_grass_block_side"
+  }
+}

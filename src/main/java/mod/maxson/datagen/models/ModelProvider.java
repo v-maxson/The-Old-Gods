@@ -5,21 +5,32 @@ import mod.maxson.entity.ModBoats;
 import mod.maxson.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.block.Block;
+import net.minecraft.data.client.*;
 
 public class ModelProvider extends FabricModelProvider {
     public ModelProvider(FabricDataOutput output) {
         super(output);
     }
 
+    private void registerGrassBlock(BlockStateModelGenerator generator, Block block, Block bottomTexture) {
+        TextureMap textureMap = new TextureMap()
+                .put(TextureKey.UP, TextureMap.getSubId(block, "_top"))
+                .put(TextureKey.SIDE, TextureMap.getSubId(block, "_side"))
+                .put(TextureKey.DOWN, TextureMap.getId(bottomTexture))
+                .put(TextureKey.PARTICLE, TextureMap.getId(bottomTexture));
+        generator.registerCubeWithCustomTextures(block, ModBlocks.SPHEDGE_DIRT, (((_0, _1) -> textureMap)));
+    }
+
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        registerGrassBlock(blockStateModelGenerator, ModBlocks.SPHEDGE_GRASS_BLOCK, ModBlocks.SPHEDGE_DIRT);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SPHEDGE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPHEDGE_BLOCK);
         // Custom Model for ModBlocks.SPHEDGE_LEGS
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPHEDGE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPHEDGE_DIRT);
 
         blockStateModelGenerator.registerLog(ModBlocks.SPHEDGE_LOG)
                 .log(ModBlocks.SPHEDGE_LOG)

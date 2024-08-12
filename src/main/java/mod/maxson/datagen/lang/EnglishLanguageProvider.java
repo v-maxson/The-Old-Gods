@@ -21,6 +21,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SPHEDGE_BLOCK, "Sphedge Block");
         translationBuilder.add(ModBlocks.SPHEDGE_LEGS, "Sphedge Legs");
         translationBuilder.add(ModBlocks.SPHEDGE_ORE, "Sphedge Ore");
+        translationBuilder.add(ModBlocks.SPHEDGE_GRASS_BLOCK, "Sphedge Grass");
+        translationBuilder.add(ModBlocks.SPHEDGE_DIRT, "Sphedge Dirt");
         translationBuilder.add(ModBlocks.SPHEDGE_LOG, "Sphedge Log");
         translationBuilder.add(ModBlocks.SPHEDGE_WOOD, "Sphedge Wood");
         translationBuilder.add(ModBlocks.STRIPPED_SPHEDGE_LOG, "Stripped Sphedge Log");

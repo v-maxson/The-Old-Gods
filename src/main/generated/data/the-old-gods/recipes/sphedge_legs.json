@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "the-old-gods:sphedge_stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "   ",
+    "# #"
+  ],
+  "result": {
+    "item": "the-old-gods:sphedge_legs"
+  }
+}

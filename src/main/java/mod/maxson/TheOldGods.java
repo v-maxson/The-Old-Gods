@@ -1,5 +1,12 @@
 package mod.maxson;
 
+import mod.maxson.block.ModBlocks;
+import mod.maxson.entity.ModEntities;
+import mod.maxson.item.ModItemGroups;
+import mod.maxson.item.ModItems;
+import mod.maxson.sound.ModSoundEvents;
+import mod.maxson.tags.ModTags;
+import mod.maxson.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +18,14 @@ public class TheOldGods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Blocks and Items First
+		ModBlocks.initialize();
+		ModItems.initialize();
 
+		ModEntities.initialize();
+		ModItemGroups.initialize();
+		ModSoundEvents.initialize();
+		ModTags.initialize();
+		ModWorldGeneration.generate();
 	}
 }

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sphedge_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the-old-gods:sphedge_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sphedge_ingot_from_blasting_sphedge_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sphedge_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sphedge_ingot_from_blasting_sphedge_ore"
+    ]
+  }
+}

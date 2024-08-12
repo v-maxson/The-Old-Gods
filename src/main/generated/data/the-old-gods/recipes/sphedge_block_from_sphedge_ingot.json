@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sphedge_block",
+  "ingredients": [
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    },
+    {
+      "item": "the-old-gods:sphedge_ingot"
+    }
+  ],
+  "result": {
+    "item": "the-old-gods:sphedge_block"
+  }
+}

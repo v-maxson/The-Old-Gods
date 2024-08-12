@@ -9,7 +9,7 @@ public class ModIdentifier extends Identifier {
         super(TheOldGods.MOD_ID, id);
     }
 
-    public static Identifier of(String id) {
+    public static ModIdentifier of(String id) {
         return new ModIdentifier(id);
     }
 }

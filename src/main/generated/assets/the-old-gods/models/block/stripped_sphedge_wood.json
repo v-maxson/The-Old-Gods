@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "the-old-gods:block/stripped_sphedge_log",
+    "side": "the-old-gods:block/stripped_sphedge_log"
+  }
+}

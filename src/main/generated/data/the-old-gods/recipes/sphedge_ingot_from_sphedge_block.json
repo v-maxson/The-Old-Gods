@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sphedge_ingot",
+  "ingredients": [
+    {
+      "item": "the-old-gods:sphedge_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "the-old-gods:sphedge_ingot"
+  }
+}

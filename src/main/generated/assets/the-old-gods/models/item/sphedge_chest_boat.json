@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "the-old-gods:item/sphedge_chest_boat"
+  }
+}

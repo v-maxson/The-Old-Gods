@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "the-old-gods:sphedge_stick"
+    },
+    "X": {
+      "item": "the-old-gods:sphedge_ingot"
+    }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "the-old-gods:sphedge_sword"
+  }
+}

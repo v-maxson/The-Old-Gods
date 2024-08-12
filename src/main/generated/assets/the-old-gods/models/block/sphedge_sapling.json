@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "the-old-gods:block/sphedge_sapling"
+  }
+}

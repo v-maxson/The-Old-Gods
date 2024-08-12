@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "sphedge_ingot",
+  "ingredient": {
+    "item": "the-old-gods:deepslate_sphedge_ore"
+  },
+  "result": "the-old-gods:sphedge_ingot"
+}

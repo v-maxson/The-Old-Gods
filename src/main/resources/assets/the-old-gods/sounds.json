@@ -1,0 +1,21 @@
+{
+  "sphedge_walk": {
+    "subtitle": "sounds.the-old-gods.sphedge_walk",
+    "sounds": [
+      "the-old-gods:sphedge/walk/sphedge_walk-01",
+      "the-old-gods:sphedge/walk/sphedge_walk-02",
+      "the-old-gods:sphedge/walk/sphedge_walk-03",
+      "the-old-gods:sphedge/walk/sphedge_walk-04",
+      "the-old-gods:sphedge/walk/sphedge_walk-05",
+      "the-old-gods:sphedge/walk/sphedge_walk-06",
+      "the-old-gods:sphedge/walk/sphedge_walk-07",
+      "the-old-gods:sphedge/walk/sphedge_walk-08",
+      "the-old-gods:sphedge/walk/sphedge_walk-09",
+      "the-old-gods:sphedge/walk/sphedge_walk-10",
+      "the-old-gods:sphedge/walk/sphedge_walk-11",
+      "the-old-gods:sphedge/walk/sphedge_walk-12",
+      "the-old-gods:sphedge/walk/sphedge_walk-13",
+      "the-old-gods:sphedge/walk/sphedge_walk-14"
+    ]
+  }
+}

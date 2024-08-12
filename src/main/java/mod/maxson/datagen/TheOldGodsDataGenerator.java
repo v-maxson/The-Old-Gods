@@ -6,8 +6,13 @@ import mod.maxson.datagen.models.ModelProvider;
 import mod.maxson.datagen.recipe.RecipeProvider;
 import mod.maxson.datagen.tags.BlockTagProvider;
 import mod.maxson.datagen.tags.ItemTagProvider;
+import mod.maxson.datagen.world.WorldGenerationProvider;
+import mod.maxson.world.ModConfiguredFeatures;
+import mod.maxson.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class TheOldGodsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -29,5 +34,14 @@ public class TheOldGodsDataGenerator implements DataGeneratorEntrypoint {
 		// Tag Provider(s)
 		pack.addProvider(BlockTagProvider::new);
 		pack.addProvider(ItemTagProvider::new);
+
+		// World Gen
+		pack.addProvider(WorldGenerationProvider::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
 	}
 }

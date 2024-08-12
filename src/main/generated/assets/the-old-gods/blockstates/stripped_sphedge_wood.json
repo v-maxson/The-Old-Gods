@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "the-old-gods:block/stripped_sphedge_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "the-old-gods:block/stripped_sphedge_wood"
+    },
+    "axis=z": {
+      "model": "the-old-gods:block/stripped_sphedge_wood",
+      "x": 90
+    }
+  }
+}

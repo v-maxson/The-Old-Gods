@@ -15,7 +15,7 @@ public class ModTreeConfiguredFeatures {
             BlockStateProvider.of(ModBlocks.SPHEDGE_LOG),
             new StraightTrunkPlacer(4, 2, 0),
 
-            BlockStateProvider.of(Blocks.OAK_LEAVES),
+            BlockStateProvider.of(ModBlocks.SPHEDGE_LEAVES),
             new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
 
             new TwoLayersFeatureSize(1, 0, 1))

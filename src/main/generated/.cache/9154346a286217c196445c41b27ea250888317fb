@@ -1,4 +1,4 @@
-// 1.20.4	2024-08-11T19:31:08.7344853	The Old Gods/Model Definitions
+// 1.20.4	2024-08-11T20:16:08.4838027	The Old Gods/Model Definitions
 c086971e0de1f51cd28e57a5673c2132d89859a5 assets\the-old-gods\models\item\sphedge_sign.json
 573aae8ab4c903ff2cb7a9e6657de19176b4f983 assets\the-old-gods\models\item\sphedge_sword.json
 812be38c21ca7978f12fc4234c20a29cca7913a2 assets\the-old-gods\models\block\sphedge_wood.json
@@ -21,8 +21,8 @@ c2e04d562d1c03d2901f895c8ab1d6d7f4f58788 assets\the-old-gods\models\item\sphedge
 6d71d86fb3a409063e31c4634792cb386fba00cf assets\the-old-gods\models\item\sphedge_block.json
 0706825044f93f30606e890ccff3a179476a02bc assets\the-old-gods\models\item\sphedge_chest_boat.json
 bd295eb4adf3ffc3eb0659ef48b5a18040558825 assets\the-old-gods\blockstates\sphedge_sapling.json
-1ed43beda1d518fb482cbcf6c371353e3313261c assets\the-old-gods\models\item\raw_sphedge.json
 9217b2f07591f2fc548bd3ed0de30e6d45638ef0 assets\the-old-gods\models\block\sphedge_sapling.json
+1ed43beda1d518fb482cbcf6c371353e3313261c assets\the-old-gods\models\item\raw_sphedge.json
 a68020ea7ab655cb357df9ff26a38bb209d25660 assets\the-old-gods\blockstates\sphedge_standing_sign.json
 e77898f6eef091d4a77f8a4f94557dce4f9e316b assets\the-old-gods\models\block\stripped_sphedge_wood.json
 a68020ea7ab655cb357df9ff26a38bb209d25660 assets\the-old-gods\blockstates\sphedge_wall_sign.json
@@ -30,8 +30,8 @@ a68020ea7ab655cb357df9ff26a38bb209d25660 assets\the-old-gods\blockstates\sphedge
 95a85d24b6e7aac3545f03920af451c9ec460510 assets\the-old-gods\models\item\sphedge_ingot.json
 a9e786911fff8e7e4f9093c5f29aef606bd760c8 assets\the-old-gods\blockstates\stripped_sphedge_log.json
 b4b8dd3c5065d58f4e2d64b2aec54e9618584a2f assets\the-old-gods\models\item\sphedge_pickaxe.json
-f86d71bb571f2c5f4601f22ea67ea2c55609ec36 assets\the-old-gods\models\block\deepslate_sphedge_ore.json
 214fd590d1091ecd58ced5e50677dbfdbe74728b assets\the-old-gods\models\item\sphedge_ore.json
+f86d71bb571f2c5f4601f22ea67ea2c55609ec36 assets\the-old-gods\models\block\deepslate_sphedge_ore.json
 f3dc96a0ecbad614b65922c2ddf4b53c8a1ab82e assets\the-old-gods\models\block\sphedge_log_horizontal.json
 aeb48864e05c26d9e7b43a285c5d823439106b09 assets\the-old-gods\models\item\sphedge_hoe.json
 031d443a4918b69f4581363b715dc6b120bae91f assets\the-old-gods\models\block\stripped_sphedge_log.json
